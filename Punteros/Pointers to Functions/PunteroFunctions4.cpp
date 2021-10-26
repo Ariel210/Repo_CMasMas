@@ -7,9 +7,11 @@ void getFunction();
 
 int main ()
 {
+    //Creating Pointer.
     void (*pointer)(void)=getFunction;
     pointer();
 
+    //Memory Address
     cout<<"Memory Address: "<<&pointer<<endl;
 
     return 0;

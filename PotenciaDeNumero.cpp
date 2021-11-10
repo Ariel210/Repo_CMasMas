@@ -5,6 +5,8 @@ using namespace std;
 
 int main ()
 {
+    //Numero Agregado.
+    //Numero Positivo
     int numero;
     cout<<"Ingrese num: ";
     cin>>numero;
